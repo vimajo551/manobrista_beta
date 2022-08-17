@@ -74,7 +74,7 @@ function up()
 
 function down()
 {
-    if(greencar_y<=400){
+    if(greencar_y<=300){
         greencar_y=greencar_y+10;
         uploadBackground();
         uploadGreenCar();
